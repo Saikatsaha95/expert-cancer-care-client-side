@@ -1,0 +1,8 @@
+.single-card {
+  height: 530px;
+  transition: all 0.5s ease-in-out;
+}
+
+.single-card:hover {
+  transform: translateY(-3%);
+}
