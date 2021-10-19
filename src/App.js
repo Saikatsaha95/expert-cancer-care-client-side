@@ -11,6 +11,10 @@ import OurExperts from "./pages/OurExperts/OurExperts";
 import Aboutus from "./pages/Aboutus/Aboutus";
 import Header from "./components/Header/Header";
 import AuthProvider from "./context/AuthProvider";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import NotFound from "./pages/NotFound/NotFound";
+import CancerDetails from "./pages/CancerDetails/CancerDetails";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -27,22 +31,29 @@ function App() {
           <Route exact path="/aboutus">
             <Aboutus></Aboutus>
           </Route>
-          <Route exact path="/allservices">
+          <PrivateRoute exact path="/allservices">
             <CancerWeTreat></CancerWeTreat>
-          </Route>
+          </PrivateRoute>
+          <PrivateRoute exact path="/allservices/:cancerId">
+            <CancerDetails></CancerDetails>
+          </PrivateRoute>
           <Route exact path="/treatments">
             <TreatmentOptions></TreatmentOptions>
           </Route>
-          <Route exact path="/experts">
+          <PrivateRoute exact path="/experts">
             <OurExperts></OurExperts>
-          </Route>
+          </PrivateRoute>
           <Route exact path="/login">
             <Login></Login>
           </Route>
           <Route exact path="/register">
             <Register></Register>
           </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </AuthProvider>
   );

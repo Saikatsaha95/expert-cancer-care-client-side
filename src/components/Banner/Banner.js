@@ -8,7 +8,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src={banner} alt="First slide" />

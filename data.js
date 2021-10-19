@@ -2,89 +2,166 @@ const data = [
   {
     id: 1,
     name: "Kidney Cancer",
-    img: "https://i.ibb.co/MhFQRz2/kidney-cancer.jpg",
-    description:
-      "Kidney cancer is among the 10 most common cancers in the world. And yet many symptoms, such as blooduria, fatigue or unexplained weight loss, may be overlooked. That is why an accurate and timely diagnosis is important.",
+    title:
+      "Kidney cancer requires expert care. Our oncologists are here to help.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/04-generic-female-intro-1080x1080.jpg",
+    topdescription:
+      "Kidney cancer is among the 10 most common cancers in the United States. And yet many symptoms, such as blood in the urine, fatigue or unexplained weight loss, may be overlooked or dismissed as side effects of less serious illnesses. That is why an accurate and timely diagnosis is important. If you or your loved one has received a kidney cancer diagnosis, the cancer experts at Expert Cancer Care® (ECC) will take the time to develop a personalized treatment plan designed to meet your needs.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/01-generic-male-treatment-1080x1080.jpg",
+
+    bottomdescription:
+      "he oncologists at ECC® have extensive experience in diagnosing and staging kidney cancer and developing a comprehensive treatment plan that also helps each patient address related side effects. Our cancer hospitals offer an array of options for treating the disease, such as robotic surgery, laparoscopic nephrectomy, targeted therapy and other and evidence-informed approaches.",
   },
 
   {
     id: 2,
     name: "Liver Cancer",
-    img: "https://i.ibb.co/KzRJr4k/liver-cancer.png",
-    description:
-      "Liver cancer is the 13th most common cancer in the world, with about 42,230 new cases expected to be diagnosed in 2021. The liver is a critical organ the body cannot live without.",
+    title:
+      "Kidney cancer requires expert care. Our oncologists are here to help.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections---dtm/ppe-images/ppe-covid19-doctor-caregiver-dtm.jpg",
+    topdescription:
+      "Liver cancer is the 13th most common cancer in the United States, with about 42,230 new cases expected to be diagnosed in 2021. The liver is a critical organ the body cannot live without. It helps filter impurities and produces bile, which helps the body digest food and process fats. Damage to the liver from illness or disease may increase the risk of liver cancer and impact treatment options for the diseases.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections---dtm/ppe-images/ppe-covid19-together-dtm.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), our medical oncologists, surgical oncologists, interventional radiologists and other experts have years of experience delivering the range of cancer treatments available for liver tumors. Our whole-person care model is designed to support patients throughout their treatment journey and includes supportive care services to help them manage side effects and maintain their quality of life.",
   },
 
   {
     id: 3,
     name: "Brain Cancer",
-    img: "https://i.ibb.co/5MwX4rq/brain-cancer.jpg",
-    description:
-      "Primary brain tumors originate in the brain and occur as the result of abnormal changes to brain cells, known as mutations. As the cells mutate, they grow and multiply uncontrollably, forming a mass, or tumor. ",
+    title: "Brain cancer diagnoses vary widely. Know your options.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/02-generic-male-intro-1080x1080.jpg",
+    topdescription:
+      "Primary brain tumors originate in the brain and occur as the result of abnormal changes to brain cells, known as mutations. As the cells mutate, they grow and multiply uncontrollably, forming a mass, or tumor. Cancers that have spread (metastasized) to the brain from other locations in the body are known as brain metastases. Brain metastases can be a single tumor or multiple tumors.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/01-generic-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), we use a variety of diagnostic tools and tests to evaluate primary and metastatic brain tumors, including biopsy, angiography and nuclear medicine bone scan. Then we use that information to develop a comprehensive treatment plan that also includes supportive care options to help manage the side effects of the disease and its treatment. A multidisciplinary team of brain cancer experts recommends treatment options based on each patient’s your diagnosis and situation.",
   },
 
   {
     id: 4,
     name: "Skin Cancer",
-    img: "https://i.ibb.co/0Kfnjgz/skin-cancer.jpg",
-    description:
-      "Skin cancer is the most common cancer in the world, affecting about 3.5 million peoples each year. Non-melanoma skin cancers, such as basal cell carcinoma and squamous cell carcinoma, are not likely to spread.",
+    title: "Skin cancer diagnoses vary widely.Know your options.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/04-generic-female-intro-1080x1080.jpg",
+    topdescription:
+      "Skin cancer is the most common cancer in the United States, affecting about 3.5 million Americans each year. Non-melanoma skin cancers, such as basal cell carcinoma and squamous cell carcinoma, are not likely to spread and may require little more than minor surgery or topical treatment. Melanoma, which accounts for about 1 percent of all skin cancers but is responsible for most skin cancer deaths, may spread (metastasize) through the lymphatic system or bloodstream to other organs. Because occurrence of this disease varies so widely, turning to a team of experts may be essential to understanding your disease and the options available to treat it. The pathologists and oncologists at our cancer hospitals are experts in treating skin cancer.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/08-generic-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), our doctors treat cancer every day, giving them the knowledge and experience to help you make informed decisions about your care. Your oncologist may recommend surgery, immunotherapy or targeted therapy, and plastic surgery to restore your function and appearance, if necessary. Your care plan may also include evidence-informed supportive care therapies to help you address skin cancer-related side effects, such as sun sensitivity, skin dryness, itchiness and redness, fatigue, swelling or nausea.",
   },
 
   {
     id: 5,
     name: "Breast Cancer",
-    img: "https://i.ibb.co/QfBJM4Q/breast-cancer.jpg",
-    description:
-      "After skin cancer, breast cancer is the second most commonly diagnosed cancer among women, affecting 1/8 women who live to the age of 80. The disease forms when breast cells mutate and multiply uncontrollably. ",
+    title: "Our doctors treat every stage of breast cancer.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/breast-intro-1080x1080.jpg",
+    topdescription:
+      "After skin cancer, breast cancer is the second most commonly diagnosed cancer among U.S. women, affecting one in eight women who live to the age of 80. The disease forms when breast cells mutate (change) and multiply uncontrollably, forming a tumor. If untreated, cancerous cells may spread to other parts of the body. Women who have a family history of the disease, who are obese or who have dense breasts have a higher risk of breast cancer. Breast cancer symptoms include a lump, skin changes, nipple discharge and pain. ",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/breast-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), our experts have the training and expertise to quickly diagnose breast cancer and tailor a treatment plan to each patient’s unique needs. Our oncologists have experience with early-stage and complex breast cancers, including triple-negative and inflammatory. ECC® patients have access to tools such as advanced genomic testing and a wide range of breast cancer treatments, including breast-conserving surgery, immunotherapy and clinical trials. Breast cancer is such an important focus at ECC that each of our hospitals has a Breast Cancer Center dedicated to treating patients with all stages of this complex disease.",
   },
   {
     id: 6,
     name: "Lung Cancer",
-    img: "https://i.ibb.co/XFr2pMM/lung-cancer-concept-doctor-explaining-results-of-lung-check-up-from-x-ray-scan-chest-on-digital-tabl.jpg",
-    description:
-      "At Expert Cancer care, we understand the uncertainty that comes with a lung cancer diagnosis. Our oncologists and supportive care clinicians are committed to helping you understand the complexities of the disease. ",
+    title: "Fighting lung cancer requires a team of experts.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/ppe-images/ppe-male-consultation/03-ppe-male-consultation-1080x1080.jpg",
+    topdescription:
+      "At Expert Cancer care, we understand the uncertainty that comes with a lung cancer diagnosis. Our oncologists and supportive care clinicians are committed to helping you understand the complexities of the disease and the array of treatment options available to you, so you can make informed decisions about your care. ",
+
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/lung-treatment-1080x1080.jpg",
+    bottomdescription:
+      "Our cancer experts offer a level of expertise that comes from working regularly with cancer patients—every stage, every day. The doctors tap that training and experience in designing a comprehensive care plan specific to your cancer, your stage and your individual needs. At ECC®, we offer a wide range of lung cancer diagnostic tools and treatments, including immunotherapy, advanced genomic testing and other new options that may be available through clinical trials.",
   },
   {
     id: 7,
     name: "Spinal Cancer",
-    img: "https://i.ibb.co/RBrfST7/A-male-doctor-explaining-lumbar-anatomy-to-female-patient-complaining-of-back-pain-at-medical-clinic.jpg",
-    description:
-      "The spinal cord is part of the central nervous system, extending as a column of nerve tissue that runs from the base of the brain down the back. It carries important messages from the brain to the rest of the body. ",
+    title: "Spinal cancer is a complex disease.Get personalized care.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/05-generic-female-intro-1080x1080.jpg",
+    topdescription:
+      "The spinal cord is part of the central nervous system, extending as a column of nerve tissue that runs from the base of the brain down the back. It carries important messages from the brain to the rest of the body. Spinal cancer forms when abnormal cells grow out of control in the spinal cord or the bones, tissues, fluid or nerves that comprise it, forming a tumor. A relatively rare disease, malignant tumors of the brain or spinal cord affect about 24,000 Americans each year. Symptoms include pain, muscle weakness, difficulty walking and paralysis. ",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/01-generic-treatment-1080x1080.jpg",
+    bottomdescription:
+      "Diagnosing spinal cancer is a complex process that often involves an angiography, a nuclear medicine bone scan, lumbar puncture and/or other imaging tests. At Expert Cancer Care® (ECC), our spinal cancer experts have training and experience in diagnosing, staging and treating all stages of the disease. They work with a multidisciplinary team of doctors and clinicians, and with each patient, to develop a comprehensive treatment plan tailored to the patient’s individual needs. That plan also includes supportive care therapies designed to help manage the side effects of cancer and its treatment, so you are better able to stay on your treatment plan without interruption and get back to your life.",
   },
   {
     id: 8,
     name: "Thyroid Cancer",
-    img: "https://i.ibb.co/8KFmmVf/thyroid-cancer.jpg",
-    description:
-      "hyroid cancer forms in the tissue of gland located at the front of the throat, below the cartilage known as the Adam’s apple. A relatively rare disease, thyroid cancer accounts for about 3% of all new cancer cases. ",
+    title: "Thyroid cancer is a complex disease. Get personalized care.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/01-consultation-female-male-1080x1080.jpg",
+    topdescription:
+      "Thyroid cancer forms in the tissue of gland located at the front of the throat, below the cartilage known as the Adam’s apple. A relatively rare disease, thyroid cancer accounts for about 3 percent of all new cancer cases. It is three times more common in women than men, and most cases are diagnosed in adults younger than 55. The most common symptom is a lump, nodule or unusual swelling in the neck.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/02-generic-female-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), our cancer experts are trained and experienced in diagnosing, staging and treating all stages and types of thyroid cancer. You may undergo diagnostic procedures such as a biopsy, MRI, X-ray and lab tests, then we’ll use that information to develop a personalized treatment plan tailored to you and your needs and preferences. Every patient’s treatment plan also includes a range of supportive care services, such as pain management and occupational therapy, to help manage the side effects of the disease and its treatment and support quality of life.",
   },
   {
     id: 9,
     name: "Oral Cancer",
-    img: "https://i.ibb.co/n0b29kL/oral-cancer.jpg",
-    description:
-      "Oral cancer forms in the mouth, including on the lips, the inside lining of the lips and cheeks, the teeth, the gums, the tongue, the bottom of the mouth and the roof of the mouth. Most patients with this disease use tobacco or alcohol.",
+    titie: "Oral cancer requires expert care.We are here to help.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/02-generic-male-intro-1080x1080.jpg",
+    topdescription:
+      "Oral cancer forms in the mouth, including on the lips, the inside lining of the lips and cheeks, the teeth, the gums, the tongue, the bottom of the mouth and the roof of the mouth. Symptoms of oral cancer often mimic symptoms of less serious conditions, such as a mouth sore that won’t go away, so knowing the signs of the disease is important. Knowing risk factors is also vital. Most patients with this disease use tobacco and/or alcohol.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/03-generic-female-treatment-1080x1080.jpg",
+    bottomdescription:
+      "Treatment typically depends on where in the mouth the cancer originated. Because oral cancer and its treatments often affect the patient’s physical appearance and ability to eat and perform other everyday activities, surgical reconstructive techniques may be an option.",
   },
   {
     id: 10,
     name: "Bone Cancer",
-    img: "https://i.ibb.co/9VzKHL6/bone-cancer.jpg",
-    description:
-      "Many symptoms may emerge as bone cancer develops and grows, but pain is the most common. While the disease may occur in any bone in the body, it most often develops in the long bones of the arms and legs.",
+    title: "Bone cancer requires expert care. Know your options.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/intro-pages/06-generic-female-intro-1080x1080.jpg",
+    topdescription:
+      "Many symptoms may emerge as bone cancer develops and grows, but pain is the most common. While the disease may occur in any bone in the body, it most often develops in the long bones of the arms and legs. Arthritis, osteoporosis or an injury may mimic many bone cancer symptoms. If you’re experiencing one or more of these symptoms, discuss them with your doctor in order to identify the cause and receive proper treatment, if necessary. Although the exact causes of this cancer type are unknown, certain factors may increase the risk for developing the disease, such as genetic disorders and previous treatments for other conditions.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/08-generic-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), we believe that every cancer is as unique as the person fighting it. In an era of precision medicine, with ever-evolving treatment advances, fighting bone cancer requires personalized care, delivered by experts trained in the many facets of this complex disease. Our cancer experts work with a multidisciplinary care team that uses a wide array of diagnostic tests, such as bone, PET and CT scans, to diagnose and stage the disease and customize an individualized treatment plan. Throughout treatment, imaging and laboratory tests track the size of the tumors and the response to treatment, allowing the care team to modify the treatment plan as needed.",
   },
   {
     id: 11,
     name: "Stomach Cancer",
-    img: "https://i.ibb.co/ZxLSCrj/Abdominal-pain-patient-woman-having-medical-exam-with-doctor-on-illness-from-stomach-cancer-irritabl.jpg",
-    description:
-      "Stomach cancer is the 15th most common cancer in the world, with more than 26,000 new cases diagnosed each year. Though stomach cancer is rare, making up 1.5% of all cancer diagnoses, certain risk factors, may increase probability.",
+    title: "Stomach cancer requires expert care. Know your options.",
+    topimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections---dtm/ppe-images/ppe-covid19-doctor-caregiver-dtm.jpg",
+    topdescription:
+      "Stomach cancer is the 15th most common cancer in the United States, with more than 26,000 new cases diagnosed each year. Though stomach cancer is rare, making up 1.5 percent of all cancer diagnoses, certain risk factors, such as diet, smoking and obesity, may increase risk for developing the disease. Stomach may also spread to other parts of the digestive system, such as the esophagus or intestines, or metastasize and form tumors in distant organs, including the lungs and liver.",
+
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections---dtm/ppe-images/ppe-covid19-team-experts-dtm.jpg",
+
+    bottomdescription:
+      "At ECC®, our medical oncologists, surgical oncologists, gastroenterologists and other experts have years of experience treating stomach cancer. Our whole-person care model is also designed to support patients’ nutritional needs, manage their pain and address other side effects throughout their treatment journey.",
   },
   {
     id: 12,
     name: "Blood  Cancer",
-    img: "https://i.ibb.co/WFzYj77/blood-cancer.jpg",
-    description:
-      "Blood cancer is the 10th most common cancer diagnosed in the world. But it isn’t just one disease—many types of cancers originate in different parts of the bloodstream and affect different types of blood cells.",
+    title: "Blood cancer requires expert care. Know your options.",
+    topimg: "https://i.ibb.co/WFzYj77/blood-cancer.jpg",
+    topdescription:
+      "Blood cancer is the 10th most common cancer diagnosed in the United States. But blood cancer isn’t just one disease—many types of blood cancer originate in different parts of the bloodstream and affect different types of blood cells. Also, some blood cancer are regarded as acute, meaning they may require aggressive treatments. Others are considered chronic, which means they are slow to develop and may require a less aggressive treatment plan. Considering the complexities of the disease, it is important to consult with an experienced team of doctors and clinicians trained to accurately diagnose the disease and develop a treatment plan tailored to your needs.",
+    bottomimg:
+      "https://cdn.cancercenter.com/-/media/ECC/images/sections/how-we-treat-cancer/treatments/02-generic-treatment-1080x1080.jpg",
+    bottomdescription:
+      "At Expert Cancer Care® (ECC), our medical oncologists, hematologist-oncologists and other experts have years of experience delivering the standard-of-care and precision cancer treatments available to treat blood cancer. Our whole-person care model is also designed to support patients throughout their treatment journey, offering supportive care services to help them manage side effects, such as pain, fatigue and weight loss, and maintain their quality of life.",
   },
 ];

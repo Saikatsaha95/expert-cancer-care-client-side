@@ -8,14 +8,14 @@ const HomeCancerCard = () => {
   const [cancerData, setCancerData] = useCacnerData();
   return (
     <div className="container my-5">
-      <h3 className="text-center">Cancer We Treat</h3>
-      <Row md={3} className="g-4">
+      <h3 className="text-center mb-3">Cancer We Treat</h3>
+      <Row md={3} sm={1} className="g-4">
         {cancerData.slice(0, 6).map((cancerData) => (
           <CancerCard key={cancerData.id} cancerData={cancerData}></CancerCard>
         ))}
 
-        <NavLink to="/allservices" className="mx-auto">
-          <Button className=" mt-5 w-75" variant="warning">
+        <NavLink to="/allservices" className="mx-auto text-center">
+          <Button className=" mt-5 w-75 " variant="warning">
             See More <i class="fas fa-arrow-circle-right"></i>
           </Button>
         </NavLink>
