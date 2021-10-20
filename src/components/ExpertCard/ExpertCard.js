@@ -14,7 +14,7 @@ const ExpertCard = (props) => {
     experience,
   } = props.expert;
   return (
-    <div className="col-md-4 col-12 ">
+    <div className="col-md-6 col-lg-4 col-12 ">
       <div className="card mb-3 set-width card-design">
         <div className="d-flex ">
           <div className="col-md-4">

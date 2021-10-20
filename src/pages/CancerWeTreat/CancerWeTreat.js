@@ -8,7 +8,7 @@ const CancerWeTreat = () => {
   console.log(cancerData);
   return (
     <div className="container my-3">
-      <Row md={3} sm={1} className="g-4">
+      <Row md={3} sm={1} xs={1} className="g-4">
         {cancerData.map((cancerData) => (
           <CancerCard key={cancerData.id} cancerData={cancerData}></CancerCard>
         ))}

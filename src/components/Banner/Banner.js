@@ -8,31 +8,29 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src={banner} alt="First slide" />
-          <Carousel.Caption className="banner-text">
-            <h2>Expert cancer care</h2>
+          <Carousel.Caption className="bg-dark">
+            <h2>Expert Cancer Care</h2>
             <p>The Care You Need Is Just Once Call Away</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner2} alt="Second slide" />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption className="bg-dark">
+            <h3>Meet Our Experts</h3>
+            <p>Get Treatment From The Best Experts</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner3} alt="Third slide" />
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+          <Carousel.Caption className="bg-dark">
+            <h3>Best Treatment Facilities</h3>
+            <p>We Will Provide The Best Treatments</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

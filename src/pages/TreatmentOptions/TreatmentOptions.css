@@ -1,0 +1,48 @@
+.single-treatment {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  overflow-y: hidden;
+  margin: 10px;
+}
+
+.photo {
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.single-treatment img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-detail {
+  display: none;
+  position: absolute;
+  width: 300px;
+  margin-top: 20%;
+  top: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.photo-detail h3 {
+  background-color: black;
+
+  text-align: center;
+}
+
+.photo-detail,
+h3 {
+  color: white;
+}
+
+.single-treatment:hover .photo-detail {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 160, 122, 0.5);
+}
+
+.single-treatment:hover .photo {
+  transform: scale(1.2);
+}

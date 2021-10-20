@@ -1,0 +1,17 @@
+.about-page {
+  height: 80vh;
+}
+
+.tryapp-text {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+  .about-top-img {
+    display: none;
+  }
+
+  .left-column {
+    font-size: 14px;
+  }
+}

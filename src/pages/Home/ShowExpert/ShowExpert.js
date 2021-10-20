@@ -15,7 +15,7 @@ const ShowExpert = () => {
         ))}
 
         <NavLink to="/experts" className="mx-auto text-center">
-          <Button className=" my-3 w-25" variant="warning">
+          <Button className=" mt-3 mb-5 w-25" variant="warning">
             See More <i class="fas fa-arrow-circle-right"></i>
           </Button>
         </NavLink>

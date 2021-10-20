@@ -9,7 +9,7 @@ const HomeCancerCard = () => {
   return (
     <div className="container my-5">
       <h3 className="text-center mb-3">Cancer We Treat</h3>
-      <Row md={3} sm={1} className="g-4">
+      <Row md={3} sm={1} xs={1} className="g-4">
         {cancerData.slice(0, 6).map((cancerData) => (
           <CancerCard key={cancerData.id} cancerData={cancerData}></CancerCard>
         ))}
@@ -20,6 +20,7 @@ const HomeCancerCard = () => {
           </Button>
         </NavLink>
       </Row>
+      <hr />
     </div>
   );
 };
