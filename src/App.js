@@ -40,9 +40,9 @@ function App() {
           <Route exact path="/treatments">
             <TreatmentOptions></TreatmentOptions>
           </Route>
-          <PrivateRoute exact path="/experts">
+          <Route exact path="/experts">
             <OurExperts></OurExperts>
-          </PrivateRoute>
+          </Route>
           <Route exact path="/login">
             <Login></Login>
           </Route>

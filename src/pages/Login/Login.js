@@ -48,7 +48,7 @@ const Login = () => {
           className="w-25 mx-auto mt-5"
           onSubmit={(e) => handleSubmit(e, email, password)}
         >
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Group className="mb-3" controlId="formGroupEmail">
             <Form.Control
               onBlur={(e) => handleEmail(e)}
               type="email"

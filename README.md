@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Expert Cancer Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Expert Cancer Care [Create React App](https://expert-cancer-care.web.app).
+
+# Functionalities
+
+- We are the best cancer care hospital.
+- Find world's best experts.
+- Get the best treatment.
+- See our treatment options.
+- Check out our services.
 
 ## Available Scripts
 

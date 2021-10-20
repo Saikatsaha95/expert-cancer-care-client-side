@@ -4,6 +4,7 @@ import useExpertData from "../../hooks/useExpertData";
 
 const OurExperts = () => {
   const [experts] = useExpertData();
+  console.log(experts);
   return (
     <div className="container mt-5">
       <div className="row g-3 ">
