@@ -1,6 +1,6 @@
 # Expert Cancer Care
 
-Expert Cancer Care [Create React App](https://expert-cancer-care.web.app).
+Live website: [Expert Cancer Care](https://expert-cancer-care.web.app).
 
 # Functionalities
 
